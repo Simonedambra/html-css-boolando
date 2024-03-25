@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: blue;
+    height: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container-header {
+
+    height: 100%;
+    width: 1400px;
+    background-color: brown;
+
+}
+
+.header-box {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.col-30 {
+    height: 100%;
+    width: calc(100%/4);
+    background-color: aqua;
+}
+
+.col-40 {
+    height: 100%;
+    width: calc(100%/4*2);
+    background-color: blanchedalmond;
+}
