@@ -19,6 +19,24 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+    height: 1250px;
+    width: 1200px;
+
+}
+
+.col-33 {
+    position: relative;
+
+    width: calc(100%/3);
+    height: calc(100%/2);
+    padding: 0px 0px 60px 0px;
+
+}
+
 /* inizio header */
 header {
     position: fixed;
@@ -80,29 +98,72 @@ li {
 }
 
 /* fine header */
+
+
 /* inizio main */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 100px 0px;
-    height: 1250px;
-    width: 1200px;
+
+/* sconti */
+.sales1 {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    bottom: 90px;
 
 }
 
-.col-33 {
-    position: relative;
+.sales {
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    bottom: 90px;
+    left: 60px;
+}
 
-    width: calc(100%/3);
-    height: calc(100%/2);
-    padding: 0px 0px 60px 0px;
+.sales2 {
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    bottom: 90px;
 
 }
 
-.margin {
-    margin: 0px 0px 50px 0px;
+.bg-red {
+    color: red;
 }
 
+.bar {
+    text-decoration: line-through;
+    margin: 0px 5px;
+    color: rgb(34, 33, 33);
+}
+
+/* fine sconti */
+/* heart */
+.heart {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.heart:hover {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-color: white;
+    padding: 10px;
+    color: red;
+
+}
+
+/* fine heart */
+
+/* inizio classi img */
 .image1 {
     background-image: url(../img/1.webp);
     background-size: contain;
@@ -151,60 +212,9 @@ li {
     width: 100%;
 }
 
-
-
-.sales1 {
-    position: absolute;
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-    bottom: 90px;
-
-}
-
-.sales {
-    position: absolute;
-    background-color: green;
-    color: white;
-    padding: 5px 10px;
-    bottom: 90px;
-    left: 60px;
-}
-
-.sales2 {
-    position: absolute;
-    background-color: green;
-    color: white;
-    padding: 5px 10px;
-    bottom: 90px;
-
-}
-
-.bg-red {
-    color: red;
-}
-
-.heart {
-    position: absolute;
-    right: 5px;
-    top: 10px;
-    background-color: white;
-    padding: 10px;
-
-}
-
-.heart:hover {
-    position: absolute;
-    right: 5px;
-    top: 10px;
-    background-color: white;
-    padding: 10px;
-    color: red;
-
-}
-
+/* fine classi img */
+/* inizio classi img hover */
 .image1:hover {
-    display: flex;
     background-image: url(../img/1b.webp);
     background-size: contain;
     background-repeat: no-repeat;
@@ -251,3 +261,5 @@ li {
     height: 100%;
     width: 100%;
 }
+
+/* fine classi hoverk */
