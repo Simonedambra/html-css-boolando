@@ -15,21 +15,25 @@
 
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* inizio header */
 header {
     position: fixed;
     top: 0px;
     left: 0;
     right: 0;
-    background-color: blue;
     height: 50px;
+    z-index: 1;
 }
 
 .container-header {
 
     height: 100%;
     width: 1400px;
-    background-color: brown;
+
 
 }
 
@@ -38,12 +42,14 @@ header {
     flex-direction: row;
     height: 100%;
     width: 100%;
+    background-color: rgb(255, 111, 0);
 }
 
 .col-30 {
     height: 100%;
     width: calc(100%/4);
-    background-color: aqua;
+    background-color: rgb(255, 111, 0);
+    color: white;
 }
 
 .header-list {
@@ -79,16 +85,22 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin: 100px 0px;
-    height: 1200px;
+    height: 1250px;
     width: 1200px;
-    background-color: bisque;
+
 }
 
 .col-33 {
     position: relative;
+
     width: calc(100%/3);
     height: calc(100%/2);
+    padding: 0px 0px 60px 0px;
 
+}
+
+.margin {
+    margin: 0px 0px 50px 0px;
 }
 
 
@@ -146,7 +158,7 @@ li {
     background-color: red;
     color: white;
     padding: 5px 10px;
-    bottom: 60px;
+    bottom: 90px;
 
 }
 
@@ -155,7 +167,7 @@ li {
     background-color: green;
     color: white;
     padding: 5px 10px;
-    bottom: 60px;
+    bottom: 90px;
     left: 60px;
 }
 
@@ -164,6 +176,10 @@ li {
     background-color: green;
     color: white;
     padding: 5px 10px;
-    bottom: 60px;
+    bottom: 90px;
 
+}
+
+.bg-red {
+    color: red;
 }
