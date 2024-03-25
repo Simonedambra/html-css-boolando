@@ -103,9 +103,7 @@ li {
     margin: 0px 0px 50px 0px;
 }
 
-
 .image1 {
-    display: flex;
     background-image: url(../img/1.webp);
     background-size: contain;
     background-repeat: no-repeat;
@@ -122,7 +120,7 @@ li {
 }
 
 .image3 {
-    background-image: url(../img/2.webp);
+    background-image: url(../img/3.webp);
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
@@ -153,6 +151,8 @@ li {
     width: 100%;
 }
 
+
+
 .sales1 {
     position: absolute;
     background-color: red;
@@ -182,4 +182,72 @@ li {
 
 .bg-red {
     color: red;
+}
+
+.heart {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.heart:hover {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-color: white;
+    padding: 10px;
+    color: red;
+
+}
+
+.image1:hover {
+    display: flex;
+    background-image: url(../img/1b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.image2:hover {
+    background-image: url(../img/2b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.image3:hover {
+    background-image: url(../img/3b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.image4:hover {
+    background-image: url(../img/4b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.image5:hover {
+    background-image: url(../img/5b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.image6:hover {
+    background-image: url(../img/6b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
