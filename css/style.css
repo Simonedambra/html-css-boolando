@@ -85,13 +85,15 @@ li {
 }
 
 .col-33 {
+    position: relative;
     width: calc(100%/3);
     height: calc(100%/2);
-    background-color: blue;
+
 }
 
 
 .image1 {
+    display: flex;
     background-image: url(../img/1.webp);
     background-size: contain;
     background-repeat: no-repeat;
@@ -137,4 +139,31 @@ li {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+}
+
+.sales1 {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    bottom: 60px;
+
+}
+
+.sales {
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    bottom: 60px;
+    left: 60px;
+}
+
+.sales2 {
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    bottom: 60px;
+
 }
