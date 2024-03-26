@@ -103,8 +103,15 @@ li {
 /* inizio main */
 
 /* sconti */
-.sales1 {
+.labels {
     position: absolute;
+    bottom: 90px;
+    left: 0;
+
+}
+
+.sales1 {
+    display: inline-block;
     background-color: red;
     color: white;
     padding: 5px 10px;
@@ -113,20 +120,19 @@ li {
 }
 
 .sales {
-    position: absolute;
+    display: inline-block;
     background-color: green;
     color: white;
     padding: 5px 10px;
-    bottom: 90px;
-    left: 60px;
+
 }
 
 .sales2 {
-    position: absolute;
+    display: inline-block;
     background-color: green;
     color: white;
     padding: 5px 10px;
-    bottom: 90px;
+
 
 }
 
